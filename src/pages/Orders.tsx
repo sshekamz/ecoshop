@@ -1,5 +1,4 @@
-import React from 'react';
-import { Package, Truck, CheckCircle } from 'lucide-react';
+import {Truck, CheckCircle } from 'lucide-react';
 
 // Mock orders data
 const orders = [

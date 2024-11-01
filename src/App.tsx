@@ -7,7 +7,7 @@ import SellerDashboard from './pages/seller/Dashboard';
 import ProductList from './pages/ProductList';
 import ProductDetail from './pages/ProductDetail';
 import Cart from './pages/Cart';
-import Checkout from './pages/CheckOut';
+import Checkout from './pages/Checkout';
 import Orders from './pages/Orders';
 import Profile from './pages/Profile';
 import { useAuth } from './lib/store';

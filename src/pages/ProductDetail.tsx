@@ -1,5 +1,5 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+//import { useParams } from 'react-router-dom';
 import { Star, Truck, Shield, ArrowLeft, ArrowRight } from 'lucide-react';
 import { useCart } from '../lib/store';
 
@@ -35,7 +35,7 @@ const product = {
 };
 
 function ProductDetail() {
-  const { id } = useParams();
+  // const { id } = useParams();
   const [selectedImage, setSelectedImage] = React.useState(0);
   const [quantity, setQuantity] = React.useState(1);
   const { addItem } = useCart();
